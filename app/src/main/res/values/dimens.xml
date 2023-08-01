@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_padding_xlange">64dp</dimen>
+    <dimen name="common_padding_default">16dp</dimen>
+    <dimen name="space_0dp">0dp</dimen>
+    <dimen name="space_16dp">16dp</dimen>
+</resources>

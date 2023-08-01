@@ -12,8 +12,20 @@ android {
     namespace 'com.example.couponts'
     compileSdk 33
 
+//    buildFeatures {
+//        viewBinding = true
+//    }
+
+//    dataBinding{
+//        android.buildFeatures.dataBinding = true
+//    }
+
+//    dataBinding{
+//        enable true
+//    }
+
     buildFeatures {
-        viewBinding = true
+        dataBinding = true
     }
 
     defaultConfig {
@@ -124,4 +136,5 @@ dependencies {
     testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitokotlin2Version"
     testImplementation "androidx.arch.core:core-testing:$mockitokotlin2Version"
     testImplementation("org.mockito:mockito-inline:$mockitoInLine")
+
 }
