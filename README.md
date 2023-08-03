@@ -79,4 +79,5 @@
 * Dagger hilt<br>
 * view Binding.<br>
 * Data binding.<br>
-* corutinas.
+* corutinas.<br>
+* Metodología Git flow.
