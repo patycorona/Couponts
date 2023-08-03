@@ -4,8 +4,6 @@ import android.database.sqlite.SQLiteConstraintException
 import com.example.couponts.AndroidApplication
 import com.example.couponts.data.database.CouponDao
 import com.example.couponts.data.database.entities.CouponEntity
-import com.example.couponts.data.model.response.ResultResponse
-import com.example.couponts.data.repository.RoomModule
 import com.example.couponts.domain.model.Constants.ERROR_EXIST
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
