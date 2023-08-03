@@ -3,7 +3,7 @@
     <string name="app_name">Couponts</string>
     <string name="text_btn_consult">Consultar</string>
     <string name="text_btn_Create">Crear cupón</string>
-    <string name="txt_title">Bienvenido, ingrese su cupón y a continuación presioneen consultar</string>
+    <string name="txt_title">Bienvenido, ingrese su cupón y a continuación presione en consultar</string>
     <string name="msg_hint_coupon">cupón</string>
     <string name="msg_hint_description">Descripción</string>
     <string name="error_unique_code">\"Este cupón ya existe, agregue un código diferente\"</string>

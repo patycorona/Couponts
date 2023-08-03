@@ -5,8 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.couponts.R
 import com.example.couponts.data.database.entities.CouponEntity
-import com.example.couponts.data.database.getMsgErrorByCode
 import com.example.couponts.domain.usecase.CouponUseCase
+import com.example.couponts.ui.component.getMsgErrorByCode
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

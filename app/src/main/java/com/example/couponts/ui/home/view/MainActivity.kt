@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.couponts.BR
 import com.example.couponts.R
-import com.example.couponts.data.database.hideKeyboard
 import com.example.couponts.databinding.ActivityMainBinding
+import com.example.couponts.ui.component.hideKeyboard
 import com.example.couponts.ui.home.viewmodel.CouponViewModel
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUpObserver(){
-
         binding.viewModel?.let {
             it.coupon.observe(this@MainActivity) { coupon ->
                 binding.apply {
@@ -42,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 Snackbar.make(binding.root,msg,Snackbar.LENGTH_SHORT).show()
             }
             it.hideKeyboard().observe(this@MainActivity) {isHide ->
-                if(isHide) hideKeyboard(this@MainActivity, binding.root)
+                if(isHide)hideKeyboard(this@MainActivity, binding.root)
             }
         }
     }

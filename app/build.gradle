@@ -5,24 +5,11 @@ plugins {
     id 'kotlin-android'
     id 'dagger.hilt.android.plugin'
     id 'kotlin-parcelize'
-    //id 'com.google.gms.google-services'
 }
 
 android {
     namespace 'com.example.couponts'
     compileSdk 33
-
-//    buildFeatures {
-//        viewBinding = true
-//    }
-
-//    dataBinding{
-//        android.buildFeatures.dataBinding = true
-//    }
-
-//    dataBinding{
-//        enable true
-//    }
 
     buildFeatures {
         dataBinding = true
@@ -55,7 +42,6 @@ android {
 }
 
 dependencies {
-
     implementation "androidx.activity:activity-ktx:$activityVersion"
     implementation "androidx.appcompat:appcompat:$appCompatVersion"
     implementation "com.google.android.material:material:$materialVersion"
@@ -136,5 +122,4 @@ dependencies {
     testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitokotlin2Version"
     testImplementation "androidx.arch.core:core-testing:$mockitokotlin2Version"
     testImplementation("org.mockito:mockito-inline:$mockitoInLine")
-
 }

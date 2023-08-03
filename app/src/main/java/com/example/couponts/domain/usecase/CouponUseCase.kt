@@ -9,6 +9,6 @@ class CouponUseCase @Inject constructor(
 
     suspend fun getCouponByCode(code:String): CouponEntity? = couponRepository.getCouponByCode(code)
 
-    suspend fun saveCoupon(couponEntity : CouponEntity) = couponRepository.saveCoupon(couponEntity)
+    suspend fun saveCoupon(couponEntity : CouponEntity) = couponRepository.setCoupon(couponEntity)
 
 }
