@@ -75,8 +75,8 @@
 * Leguajes de programación de android con kotlin<br>
 * Clean architecture<br>
 * Room<br>
-* inyección de dependencia<br>
+* Inyección de dependencia<br>
 * Dagger hilt<br>
 * view Binding.<br>
 * Data binding.<br>
-* corutinas.<br>
+* corutinas.
