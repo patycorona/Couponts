@@ -8,16 +8,16 @@ import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
 class AndroidApplication : Application() {
-//
-//    companion object{
-//       lateinit var database: CouponDatabase
-//    }
-//
-//    override fun onCreate(){
-//        super.onCreate()
-//        database = Room.databaseBuilder(
-//            this, CouponDatabase::class.java,
-//            DATABASE
-//        ).build()
-//    }
+
+    companion object{
+       lateinit var database: CouponDatabase
+    }
+
+    override fun onCreate(){
+        super.onCreate()
+        database = Room.databaseBuilder(
+            this, CouponDatabase::class.java,
+            DATABASE
+        ).build()
+    }
 }

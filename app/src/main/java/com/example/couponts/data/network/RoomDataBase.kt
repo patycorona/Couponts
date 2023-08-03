@@ -11,10 +11,10 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
-class RoomDataBase (){
+class RoomDataBase @Inject constructor (){
 
     private val dao: CouponDao by lazy {
-        RoomModule.database.couponDao()
+        AndroidApplication.database.couponDao()
     }
 
     suspend fun getCouponByCode(code:String): CouponEntity? = dao.getCouponByCode(code)

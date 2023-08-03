@@ -13,16 +13,16 @@ import dagger.hilt.android.components.ViewModelComponent
 @InstallIn(ViewModelComponent::class)
 @Module
 object RoomModule {
-
-    lateinit var database: CouponDatabase
-
-    @Provides
-    fun provideRoom(): CouponDatabase{
-
-        database = Room.databaseBuilder(
-            this as Context , CouponDatabase::class.java,
-            Constants.DATABASE
-        ).build()
-        return database
-    }
+//
+//    lateinit var database: CouponDatabase
+//
+//    @Provides
+//    fun provideRoom(): CouponDatabase{
+//
+//        database = Room.databaseBuilder(
+//            this as Context , CouponDatabase::class.java,
+//            Constants.DATABASE
+//        ).build()
+//        return database
+//    }
 }
