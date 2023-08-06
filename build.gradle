@@ -9,7 +9,6 @@ plugins {
 
 ext {
     //Support Libraries
-
     activityVersion = '1.7.2'
     appCompatVersion = '1.6.1'
     materialVersion = '1.9.0'

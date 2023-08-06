@@ -7,4 +7,5 @@ import com.example.couponts.data.database.entities.CouponEntity
 @Database(entities = [CouponEntity::class], version = 1)
 abstract class CouponDatabase :RoomDatabase() {
     abstract fun couponDao(): CouponDao
+    
 }
