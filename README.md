@@ -72,12 +72,15 @@
 </table>
 <br>
 <B>Tecnologias con las que se realizó este proyecto:</B><br>
-* Leguajes de programación de android con kotlin<br>
-* Clean architecture<br>
-* Room<br>
-* Inyección de dependencia<br>
-* Dagger hilt<br>
-* view Binding.<br>
+* Leguajes de programación de android con kotlin.<br>
+* Sdk 33. <br>
+* Data Binding. <br>
+* Java version 17. <br>
+* Clean architecture.<br>
+* Room.<br>
+* Inyección de dependencia.<br>
+* Dagger hilt.<br>
+* View Binding.<br>
 * Data binding.<br>
-* corutinas.<br>
+* Corutinas.<br>
 * Metodología Git flow.
