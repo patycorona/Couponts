@@ -69,6 +69,7 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$daggerHilt"
     implementation "androidx.drawerlayout:drawerlayout:$drawerlayout"
     implementation "androidx.fragment:fragment-ktx:$fragmentktx"
+    implementation 'androidx.test.ext:junit-ktx:1.1.5'
     kapt "com.google.dagger:hilt-compiler:$daggerHilt"
 
     // Libs for Data Store
@@ -110,6 +111,7 @@ dependencies {
     kapt "androidx.room:room-compiler:$roomVersion"
     //Optional kotlin extension and coroutines support for room
     implementation "androidx.room:room-ktx:$roomVersion"
+    testImplementation "androidx.room:room-testing:$roomVersion"
 
     //Gson
     implementation "com.google.code.gson:gson:$GsonVersion"
@@ -118,7 +120,9 @@ dependencies {
     testImplementation "junit:junit:$jUnit"
     testImplementation "org.assertj:assertj-core:$assertJVersion"
     testImplementation "org.mockito:mockito-core:$mockitoCore"
+    testImplementation "org.robolectric:robolectric:4.9"
     testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitokotlin2Version"
     testImplementation "androidx.arch.core:core-testing:$mockitokotlin2Version"
+
     testImplementation("org.mockito:mockito-inline:$mockitoInLine")
 }

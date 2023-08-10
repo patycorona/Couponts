@@ -28,11 +28,11 @@
   </tr>
   <tr>
     <td colspan = 2>
-    <B><em> Insersion de cupón<br>
-    <img alt="Pantalla Inicial" height="300" src="https://github.com/patycorona/Couponts/assets/65816817/8bc039ed-4d47-4673-853a-83d9f397065c" width="160"/>
-  </td>
+        <B><em> Insersion de cupón<br>
+        <img alt="Pantalla Inicial" height="300" src="https://github.com/patycorona/Couponts/assets/65816817/8bc039ed-4d47-4673-853a-83d9f397065c" width="160"/>
+    </td>
   <td>
-     Ingresamos el cupón que pueden ser letras y/o números y si ese cupón aún no se a registrado Cambiamos el mensaje que 
+      Ingresamos el cupón que pueden ser letras y/o números y si ese cupón aún no se a registrado Cambiamos el mensaje que 
       anteriormente era de bienvenida por otro donde nuevamente se le indica el proceso a seguir.
   </td>
   </tr>
@@ -72,12 +72,15 @@
 </table>
 <br>
 <B>Tecnologias con las que se realizó este proyecto:</B><br>
-* Leguajes de programación de android con kotlin<br>
-* Clean architecture<br>
-* Room<br>
-* Inyección de dependencia<br>
-* Dagger hilt<br>
-* view Binding.<br>
+* Leguajes de programación de android con kotlin.<br>
+* Sdk 33. <br>
+* Data Binding. <br>
+* Java version 17. <br>
+* Clean architecture.<br>
+* Room.<br>
+* Inyección de dependencia.<br>
+* Dagger hilt.<br>
+* View Binding.<br>
 * Data binding.<br>
-* corutinas.<br>
+* Corutinas.<br>
 * Metodología Git flow.
