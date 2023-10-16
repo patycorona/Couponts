@@ -70,17 +70,9 @@
        </td>
   </tr>
 </table>
-<br>
+      <br>
 <B>Tecnologias con las que se realizó este proyecto:</B><br>
 * Leguajes de programación de android con kotlin.<br>
-* Sdk 33. <br>
-* Data Binding. <br>
-* Java version 17. <br>
-* Clean architecture.<br>
-* Room.<br>
-* Inyección de dependencia.<br>
-* Dagger hilt.<br>
-* View Binding.<br>
-* Data binding.<br>
-* Corutinas.<br>
-* Metodología Git flow.
+      * Metodología Git flow.
+<br>
+      <img alt="Pantalla Inicial" height="400" src="https://github.com/patycorona/Couponts/assets/65816817/a6c92856-389d-430e-bfa7-e8e0e15001ed"/>
