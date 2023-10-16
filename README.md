@@ -75,4 +75,4 @@
 * Leguajes de programación de android con kotlin.<br>
       * Metodología Git flow.
 <br>
-      <img alt="Pantalla Inicial" height="400" src="https://github.com/patycorona/Couponts/assets/65816817/a6c92856-389d-430e-bfa7-e8e0e15001ed"/>
+      <img alt="Diagrama Couponts" height="400" src="https://github.com/patycorona/Couponts/assets/65816817/a6c92856-389d-430e-bfa7-e8e0e15001ed"/>
